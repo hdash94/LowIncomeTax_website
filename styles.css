@@ -136,32 +136,18 @@ body
 	height: 100%;
 	border: 1px solid #888;
 }
-#news
+#newsParent
 {
 	background-color: #9E9E9E;
-	display: inline-grid;
-	grid-template-columns: 1fr 2fr;	
-	grid-auto-rows: 30em;
-	grid-column-gap: 1em;
-	padding: 5em 0em 5em 0em;
+	display: block;
+	height: 500px;
 }
-#newsIMG
-{
-	overflow: hidden;
-}
-#newsIMG img
+#newsHolder
 {
 	display: block;
-	/*margin-left: auto;
-	margin-right: auto;*/
-	margin: auto;
-	height: 50%;
-}
-#newsText
-{
 	text-align: center;
 	overflow: scroll;
-	padding-right: 4em;
+	padding: 1em .5em 1em .5em;
 }
 #Cabout
 {
